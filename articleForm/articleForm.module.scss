@@ -1,0 +1,117 @@
+@import '../../style/variables.scss';
+
+.wrapper {
+    margin: 0 auto;
+    margin-top: 2.125rem;
+    margin-bottom: 3.75rem;
+    padding: 3rem 2rem;
+    min-width: 59rem;
+    background-color: $background-color;
+    border: 1px solid $normal-color;
+    box-shadow: 0px 22px 106px rgba(0, 0, 0, 0.07), 
+            0px 9.19107px 44.2843px rgba(0, 0, 0, 0.0503198), 
+            0px 4.91399px 23.6765px rgba(0, 0, 0, 0.0417275), 
+            0px 2.75474px 13.2728px rgba(0, 0, 0, 0.035), 
+            0px 1.46302px 7.04911px rgba(0, 0, 0, 0.0282725), 
+            0px 0.608796px 2.93329px rgba(0, 0, 0, 0.0196802);
+    border-radius: 6px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.title {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    color: $heading-color;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.inputLabel {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.875rem;
+    color: $heading-color;
+}
+
+.innerWrappes {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+.tag {
+    display: flex;
+    gap: 1rem;
+}
+
+.tagsWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.formInput {
+    padding: 0.75rem;
+    border: 1px solid $normal-color;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: $text-color;
+    outline-color: $title-color;
+}
+
+.formTextArea {
+    padding: 0.75rem;
+    border: 1px solid $normal-color;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: $text-color;
+    outline-color: $title-color;
+    resize: none;
+    height: 10.5rem;
+}
+
+.btn {
+    max-width: 20rem;
+    padding: 0.5rem;
+    color: $background-color;
+    background-color: $title-color;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+}
+
+.delBtn {
+    padding: 0.5rem 2.25rem;
+    color: $highlight-color;
+    background-color: $background-color;
+    border-radius: 4px;
+    border: 1px solid $highlight-color;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.addBtn {
+    padding: 0.5rem 2.25rem;
+    color: $title-color;
+    background-color: $background-color;
+    border-radius: 4px;
+    border: 1px solid $title-color;
+    font-size: 1rem;
+    min-height: 2.875rem;
+    cursor: pointer;
+}
+
+.errors {
+    font-size: 0.75rem;
+    color: $highlight-color;
+}
